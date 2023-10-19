@@ -1,0 +1,36 @@
+.nav {
+    background-color: #0b0c0cfb;
+    font-family:  'Pacifico', cursive;
+  }
+  
+  ul {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+
+  }
+  
+  li {
+    display: inline-block;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+  }
+
+  
+  li:hover {
+    background-color: #4603c2;
+    color: #f2f2f2;
+  } 
+  
+  .link {
+
+    font-family: 'Pacifico', cursive;
+color: white;
+  };
