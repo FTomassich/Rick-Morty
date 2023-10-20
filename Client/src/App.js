@@ -87,11 +87,12 @@ const onSearch = (id) => {
 //  };
 
 const onClose =(id)=> {
-   setCharacters (
-      characters.filter((char)=> {
-         return char.id !== Number(id)
-      })
-)
+   setCharacters((prevState)=> prevState.filter((ch)=>ch.id !== id))
+
+   // setCharacters (
+   //    characters.filter((char)=> {
+   //       return char.id !== Number(id)
+   //    }))
 
 }
    return (

@@ -46,7 +46,8 @@ const Favorites = (props) => {
       species={char.species}
       gender={char.gender}
       origin={char.origin.name}
-      image={char.image}  
+      image={char.image}
+      
       
       />
             );
