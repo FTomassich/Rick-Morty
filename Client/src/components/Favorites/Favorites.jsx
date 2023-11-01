@@ -39,6 +39,7 @@ const Favorites = (props) => {
         {myFavorites.map((char)=>{
             return(
                 <Card
+        
                 key = {char.id}
       id={char.id}
       name={char.name}
@@ -47,6 +48,7 @@ const Favorites = (props) => {
       gender={char.gender}
       origin={char.origin.name}
       image={char.image}
+      
       
       
       />
