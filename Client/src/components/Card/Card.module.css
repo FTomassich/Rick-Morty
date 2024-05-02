@@ -1,63 +1,51 @@
 
 
 .card {
-
-
+    width: 25vw;
+    height: 60vh;
     transition: transform 0.3s ease-in-out;
-
-
-    /* margenes */
-   margin:10px;
- 
-  
-
-
-    /* fondo */
+    margin: 20px;
     background-color: rgba(62, 3, 110, 0.450);
-
-    /* texto */
-    font-family:  'Pacifico', cursive;
-    /* font: italic normal 400 16px Arial, Verdana, sans-serif; */
+    font-family: 'Pacifico', cursive;
     color: rgb(255, 255, 255);
-
-    /* bordes */
-    border-style:solid;
+    border-style: solid;
     border-width: 3px;
     border-color: rgb(52, 9, 207);
     border-radius: 1rem;
     size-adjust: center;
-
-    
-
-
     &:hover {
-        background-color: rgba(70, 3, 194, 0.8); /* Cambiar a un color de fondo más claro */
-        color: #dcdcdc; /* Cambiar a un color de texto más claro */
+        background-color: rgba(70, 3, 194, 0.8);
+        color: #dcdcdc;
         transform: scale(1.04);
     }
-
-    
 }
 
 .imagen {
-    width: 90%;
-     height: auto;
-       border-radius: 200px;
-       border: solid;
-       border-color: black;
-   
-   }
+    width: 60%;
+    height: auto;
+    border-radius: 200px;
+    border: solid;
+    border-color: black;
+    transition: transform 0.5s ease-in-out; /* Agrega una transición para la animación de rotación */
+}
 
-   .nombre {
-font-family: 'Pacifico', cursive;
-color: white;
-background-color: black;
+.imagen:hover {
+    transform: rotateY(180deg); /* Aplica la rotación al pasar el ratón sobre la imagen */
+}
 
-   }
+.nombre {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background-color: black;
+}
 
-.boton{
+.boton {
     background-color: rgb(14, 7, 7);
     margin-top: 10px;
-   border: solid;
+    border: solid;
     border-color: rgb(6, 5, 10);
 } 
+
+.origin {
+    background-color: black;
+}

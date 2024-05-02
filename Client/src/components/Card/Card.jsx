@@ -38,9 +38,10 @@ useEffect(()=> {
          
          <button onClick={() =>onClose (id)} className={style.boton}>❌</button>
          <Link to={`/detail/ ${id}`}  className={style.nombre}>
-         <h2> Nombre: {name}</h2>
+         <h3> Nombre: {name}</h3>
          </Link>
          <img className={style.imagen} src={image} alt=""/> 
+         <h3 className={style.origin}>Origen: {origin}</h3>
         
         
         </div>
