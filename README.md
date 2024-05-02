@@ -1,2 +1,3 @@
 # Rick-Morty
-Integrador back y front
+Integrador full stack
+
